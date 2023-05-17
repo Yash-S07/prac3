@@ -1,0 +1,13 @@
+name:worflow_practice
+
+on:
+	workflow_dispatch:
+	pull_request:
+
+jobs:
+	job_id : work
+		runs_on : ubuntu-latest
+		steps:
+			-name:cnejfvn
+			-run : echo Thoda sabar karo
+			-shell:bash
