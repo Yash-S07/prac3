@@ -1,6 +1,6 @@
 name: spellCheck
 
-on: [pull_requests,push,workflow_dispatch]
+on: [pull_request,push,workflow_dispatch]
 
 jobs:
   spell:
